@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Componente Inicial con formulario de Registro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una solucion a [Intro component with sign up form challenge en Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
-## Available Scripts
+## Contenido
 
-In the project directory, you can run:
+- [Vista General](#general)
+  - [El Reto](#el-reto)
+  - [Pantallazo](#pantallazo)
+  - [Links](#links)
+- [Mi proceso](#mi-proceso)
+  - [Desarrollado con](#desarrollado-con)
+  - [Lo que aprendí](#lo-que-aprendí)
+- [Autor](#autor)
 
-### `npm start`
+## General
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### El Reto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Un componente de formulario que te permite:
 
-### `npm test`
+- Visualizarlo en cualquier dispositivo (responsive design)
+- Simular el llenado y envio de un formulario con sus respectivas validaciones 
+- Recibir un mensaje de error cuando en el `form` escribes:
+  - Algun campo `input` vacío. Aun no sé cual mensaje de error poner *"[Campo Nombre] no puede estar vació"*
+  - Un email sin el formato correcto(es decir, con la estructura: `nombre@correo.com`). Este mensaje diría algo como *"Parece que esto no es un email"*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pantallazo
 
-### `npm run build`
+![](./design/desktop-preview.jpg)
+![](./design/mobile-design.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Url Solucion: [Add solution URL here](https://your-solution-url.com)
+- Sitio Web URL: [Add live site URL here](https://your-live-site-url.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Mi proceso
 
-### `npm run eject`
+### Desarrollado con
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Semantica HTML5
+- CSS personalizado sin frameworks
+- Flexbox
+- Flujo de Trabajo: first-mobile
+- [React](https://reactjs.org/) - Biblioteca JS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Lo que aprendí
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usé este componente para repasar conceptos de React y su modelo de componentes ademas de utilizar Expresiones Regulares y el hook useState. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autor
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Sitio Web - [En construccion...]()
+- Frontend Mentor - [@SimoniacJewel88](https://www.frontendmentor.io/profile/SimoniacJewel88)
+- Linked In - [@]()
