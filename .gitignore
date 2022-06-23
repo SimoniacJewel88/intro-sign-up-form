@@ -28,3 +28,7 @@ yarn-error.log*
 # Figma design file
 *.xd
 *.fig
+
+# Design 
+active-states.jpg
+/design/desktop-design.jpg

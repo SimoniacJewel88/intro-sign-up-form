@@ -1,0 +1,55 @@
+.forms {
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+}
+
+input {
+  width: 100%;
+  border-radius: 0.5rem;
+  /* outline: none; */
+  padding: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px){
+  .forms {
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+  }
+  
+  input {
+    width: 86%;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+    /* border-color: hsl(246, 25%, 77%); */
+    padding: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  input[type="submit"] {
+    color: white;
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 0 3px 1px hsl(155, 59%, 38%);
+  }
+
+  input[type="submit"]:hover {
+    cursor: pointer;
+  }
+
+  .terminos {
+    text-align: center;
+    padding: 0 1.7rem;
+    margin: 0;
+    font-size: 0.625rem;
+    font-weight: 300;
+    color: hsl(246, 25%, 77%);
+  }
+
+  .terminos span {
+    color: hsl(0, 100%, 74%);  
+  }
+}
