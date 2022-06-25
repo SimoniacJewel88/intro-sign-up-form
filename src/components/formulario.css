@@ -1,15 +1,53 @@
 .forms {
   padding: 1.5rem;
   border-radius: 0.6rem;
+  margin-top: 1.6rem;
 }
 
 input {
-  width: 100%;
+  width: calc(100% - calc(1.2rem + 1.2rem));
   border-radius: 0.5rem;
-  /* outline: none; */
+  border: 1px solid hsl(246, 25%, 77%);
+  outline: none;
   padding: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+/*
+ No se ve muy bien esto 
+*/
+input:focus {
+  font-size: 1.1rem;
+}
+
+input[type="submit"] {
+  color: white;
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  box-shadow: 0 3px 1px hsl(155, 59%, 38%);
+}
+
+.relative {
+  position: relative;
+}
+
+.icono-error{
+  position: absolute;
+  top: 1rem;
+  left: calc(100% - 2rem);
+}
+
+.terminos {
+  text-align: center;
+  padding: 0 1.7rem;
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: hsl(246, 25%, 77%);
+}
+
+.terminos span {
+  color: hsl(0, 100%, 74%);  
 }
 
 @media screen and (max-width: 1200px){
@@ -51,5 +89,15 @@ input {
 
   .terminos span {
     color: hsl(0, 100%, 74%);  
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .icono-error{
+    position: absolute;
+    top: 1rem;
+    left: calc(100% - 2rem);
   }
 }

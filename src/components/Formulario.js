@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Alerta from "./Alerta";
 import "./formulario.css";
+import iconoError from "../images/icon-error.svg";
 
 function Formulario({
   nombre, 
@@ -82,27 +83,29 @@ function Formulario({
   return (
     <form className="forms" onSubmit={handleSubmit}>
       <div className="row">
-        <div>
+        <div className="relative">
           <input 
             type="text" 
             placeholder="First Name" 
             name="nombre"
             onBlur={handleBlur}
           />
+          {alertas.nombre && <img class="icono-error" src={iconoError} alt="icono error"/> }
           {alertas.nombre && <Alerta mensaje={"First Name cannot be empty"}/>}
           
         </div>
-        <div>
+        <div className="relative">
           <input
             type={"text"}
             placeholder="Last Name"
             onBlur={handleBlur}
             name="apellido"
           />
+          {alertas.apellido && <img class="icono-error" src={iconoError} alt="icono error"/> }
           {alertas.apellido && <Alerta mensaje={"Last Name cannot be empty"}/>}
           
         </div>
-        <div>
+        <div className="relative">
           <input
             type={"email"}
             placeholder="Email Address"
@@ -110,10 +113,11 @@ function Formulario({
             onBlur={handleBlur}
             name="email"
           />
+          {alertas.email && <img class="icono-error" src={iconoError} alt="icono error"/> }
           {alertas.email && <Alerta mensaje={"Looks like this is not an email"}/>}
           
         </div>
-        <div>
+        <div className="relative">
           <input
             type={"password"}
             placeholder="Password"
@@ -121,6 +125,7 @@ function Formulario({
             onBlur={handleBlur}
             name="password"
           />
+          {alertas.password && <img class="icono-error" src={iconoError} alt="icono error"/> }
           {alertas.password && <Alerta mensaje={"Password cannot be empty"}/>}
 
         </div>

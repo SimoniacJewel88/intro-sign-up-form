@@ -29,14 +29,9 @@ h1 {
   body{
     background-image: url("./images/bg-intro-mobile.png");
     background-color: rgba(255, 0, 0, 0.527);
-
     /* background-image: orange; */
   }
-  .container {
-    max-width: 20.4375rem;
-    padding-top: 6.125rem;  /*Cambiar esta linea a 4.125rem*/
-    padding-bottom: 6.125rem;
-  }
+  
   h1 {
     margin-top: 0;
     font-size: 1.7rem;

@@ -1,7 +1,13 @@
-
+.alerta {
+  margin: 0 auto;
+  color: hsl(0, 100%, 74%);
+  font-style: italic;
+  text-align: right;
+  font-size: 0.8rem;
+}
 
 @media screen and (max-width: 1200px){ 
   .alerta {
-    color: red;
+    color: hsl(0, 100%, 74%);
   }
 }

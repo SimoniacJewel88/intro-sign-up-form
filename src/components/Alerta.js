@@ -3,7 +3,7 @@ import "./Alerta.css";
 function Alerta({mensaje}) {
 
   return (
-    <p>{mensaje}</p>
+    <p className="alerta">{mensaje}</p>
   )
 }
 
